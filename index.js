@@ -144,16 +144,6 @@ class App extends React.Component {
             }
           </div>
         </section>
-
-        <section className="app-sms">
-          <p> Register for SMS alerts for this location</p>
-          <form className="form-inline" onSubmit={(e) => {this.registerUser(); e.preventDefault();}}  name="updates">
-            <input  type="text" name="sms" placeholder="555-555-555" /><br />
-            <button type="submit" className="btn btn-primary">Get alerts </button>
-          </form>  
-        </section>
-      </div> // app
-
     );
   }
 }
