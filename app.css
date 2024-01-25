@@ -1,4 +1,4 @@
-/* Variables */
+
 $gray: #989898;
 $blue: #7ED2E9;
 
@@ -7,7 +7,6 @@ body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
-/* Grid Items */
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
