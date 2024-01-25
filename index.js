@@ -126,7 +126,6 @@ class App extends React.Component {
           <h2>{this.state.location} </h2>
           <a href="#" className="app-not" onClick={this.reloadApp}>Reload App?</a>
         </header>
-        </header>
 
         <section className="app-weather">
           <h2 className="app-temp">
