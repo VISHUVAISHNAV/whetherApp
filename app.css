@@ -11,7 +11,7 @@ code {
 
 
 body {
-  background: url(https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
   background-size: cover;
   color: #fff;
   margin: 0 10px;
@@ -31,8 +31,8 @@ ul {
   padding: 10px;
   margin: 10px;
   width: 250px;
-  border-radius: 5%;
-  background-color: #5b6cc7;
+  border-radius: 10%;
+  background-color: #4a888c;
   opacity: 0.8;
   text-align: center;
 }
@@ -51,4 +51,5 @@ li {
 img {
   height: 70px;
 }
+
 
