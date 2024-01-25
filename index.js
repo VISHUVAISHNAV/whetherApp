@@ -1,7 +1,3 @@
-import React, { Component } from 'react';
-import axios from 'axios';
-import './app.css';
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -15,11 +11,13 @@ class App extends React.Component {
   componentDidMount() {
     this.getWeather();
   }
+// Make sure we have access to users location
   getWeather = () => {
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(this.successWeather, this.errorWeather);
     }
   }
+// Get location coordinates
   successWeather = (position) => {
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
@@ -91,22 +89,6 @@ class App extends React.Component {
     })
   }
 
-   registerUser = () => {
-      let x = document.forms["updates"]["sms"].value;
-     // make sure input is not blank
-      if (x == "" ) {
-          alert("Please give us your phone number");
-          return;
-      } 
-     //validate only 10 digits
-      if (x.match(/\d/g).length === 10 ) {
-         alert("You have been registered!");
-     }
-     else {
-         alert("Please double check your numbers");
-        return;
-     }
-   }
    reloadApp = () => {
       this.setState({ state: this.state });
    }
@@ -144,6 +126,11 @@ class App extends React.Component {
             }
           </div>
         </section>
+        <footer className="app-footer">
+          <p>&copy; Weather App Created By Vishu Vaishnav</p>
+        </footer>
+      </div> // app
+
     );
   }
 }
