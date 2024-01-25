@@ -38,7 +38,7 @@ body {
   text-align: center;
  
 &-logo {
-  animation: logo-fade 2s linear;
+  animation: logo-fade 5s linear;
  width:125px;
   }
 &-header {
