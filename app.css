@@ -151,6 +151,11 @@ body {
   }
  }
 }
+.app-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+}
 
 @keyframes logo-fade {
  from {
