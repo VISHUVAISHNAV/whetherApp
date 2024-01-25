@@ -15,13 +15,11 @@ class App extends React.Component {
   componentDidMount() {
     this.getWeather();
   }
-// Make sure we have access to users location
   getWeather = () => {
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(this.successWeather, this.errorWeather);
     }
   }
-// Get location coordinates
   successWeather = (position) => {
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
