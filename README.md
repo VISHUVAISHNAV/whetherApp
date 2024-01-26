@@ -5,7 +5,7 @@
 This is a simple React weather app that provides an 8-day weather forecast based on the user's geolocation. It uses the OpenWeatherMap API to fetch weather data.
 
 ## Author
-Vishu Vaishnav
+Vishu Vaishnav and Rudra Pratap Singh
 
 ## Features
 - Geolocation-based weather forecast.
